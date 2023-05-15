@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_rP_koPMJEe2O0ZqyHYQ_BQ" targetNamespace="http://tns.tibco.com/bw/composite/DTAPP" name="DTAPP" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_sORKwPMJEe2O0ZqyHYQ_BQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_sOX4cPMJEe2O0ZqyHYQ_BQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_sOcJ4PMJEe2O0ZqyHYQ_BQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_sOhCYPMJEe2O0ZqyHYQ_BQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_sOmh8PMJEe2O0ZqyHYQ_BQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_sOplQPMJEe2O0ZqyHYQ_BQ" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:property xmi:id="_sOt2sPMJEe2O0ZqyHYQ_BQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_rb_ZQPMJEe2O0ZqyHYQ_BQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_rb_ZQfMJEe2O0ZqyHYQ_BQ" processName="dtapp.Process"/>
+  </sca:component>
+</sca:composite>
